@@ -4,13 +4,13 @@ int main()
 {
     for(char i='A';i<='Z';i++)
     {
-        char a=i | (1<<5);
+        char a=i | ' ';//i|' ';
         cout<<a;
     }
     cout<<endl;
    for(char j='a';j<='z';j++)
    {
-    char b=j&(~(1<<5));
+    char b=j&'_';//j&'_';
     cout<<b;
    }
    return 0;
